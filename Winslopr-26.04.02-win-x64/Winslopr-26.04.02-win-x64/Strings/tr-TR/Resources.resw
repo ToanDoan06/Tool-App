@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <!-- ============================================================ -->
+  <!-- Translator credits                                            -->
+  <!-- Fill in your name and website to be credited in the app.      -->
+  <!-- Leave empty if you don't want to be credited.                 -->
+  <!-- ============================================================ -->
+  <data name="Language_TranslatorName"><value>@kdtt</value></data>
+  <data name="Language_TranslatorWebsite"><value>tnctr.com</value></data>
+  <data name="Language_TranslatedBy"><value>Translated by</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Navigation                          -->
+  <!-- ============================================================ -->
+  <data name="NavHome.Text"><value>Ana Sayfa</value></data>
+  <data name="NavApps.Text"><value>Uygulamalar</value></data>
+  <data name="NavInstall.Text"><value>Yükleme</value></data>
+  <data name="NavTools.Text"><value>Araçlar</value></data>
+  <data name="NavSettings.Text"><value>Ayarlar</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Support flyout                      -->
+  <!-- ============================================================ -->
+  <data name="MenuShare.Text"><value>Winslopr’ı Paylaş</value></data>
+  <data name="MenuKofi.Text"><value>Ko-fi üzerinden destek ol</value></data>
+  <data name="MenuPaypal.Text"><value>PayPal ile bağış yap</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: SettingsPage                                      -->
+  <!-- ============================================================ -->
+  <data name="Settings_Title.Text"><value>Ayarlar</value></data>
+  <data name="Settings_Language.Text"><value>Dil</value></data>
+  <data name="Settings_LanguageSubtext.Text"><value>Uygulama dili</value></data>
+  <data name="Settings_TranslatedBy.Text"><value>Çeviri</value></data>
+  <data name="Settings_Appearance.Text"><value>Görünüm</value></data>
+  <data name="Settings_Theme.Text"><value>Tema</value></data>
+  <data name="Settings_Backdrop.Text"><value>Arka plan efekti</value></data>
+  <data name="Settings_ThemeSystem"><value>Sistem ayarını kullan</value></data>
+  <data name="Settings_ThemeLight"><value>Açık</value></data>
+  <data name="Settings_ThemeDark"><value>Koyu</value></data>
+
+  <data name="Settings_Extensions.Text"><value>Uzantılar</value></data>
+  <data name="Settings_ToolScripts.Text"><value>Betikler</value></data>
+  <data name="Settings_ToolScriptsDescription.Text"><value>Araçlar sayfasından çalıştırılan bağımsız betikler.</value></data>
+  <data name="Settings_OpenToolsPage.Text"><value>Araçlar sayfasını aç</value></data>
+  <data name="Settings_Plugins.Text"><value>Eklentiler</value></data>
+  <data name="Settings_PluginsDescription.Text"><value>Uygulama özellikleriyle entegre çalışan eklentiler.</value></data>
+  <data name="Settings_ManagePlugins.Text"><value>Eklentileri yönet</value></data>
+  <data name="Settings_Legacy.Text"><value>Winslopr (Klasik)</value></data>
+  <data name="Settings_LegacyDescription.Text"><value>Winslopr’ın klasik WinForms sürümü.</value></data>
+  <data name="Settings_LaunchLegacy.Text"><value>Klasik sürümü başlat</value></data>
+  <data name="Settings_CompatOk"><value>Tam uyumlu</value></data>
+  <data name="Settings_CompatWarn"><value>Sınırlı uyumlu</value></data>
+  <data name="Settings_CheckUpdates.Text"><value>Güncellemeleri denetle</value></data>
+  <data name="Settings_Feedback.Text"><value>Geri bildirim gönder</value></data>
+  <data name="MenuHelp.Text"><value>Yardım</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Search & More options menu           -->
+  <!-- ============================================================ -->
+  <data name="SearchBox.PlaceholderText"><value>Ara</value></data>
+  <data name="MenuToggle.Text"><value>Tümünü işaretle / işareti kaldır</value></data>
+  <data name="MenuUndo.Text"><value>Son değişiklikleri geri al</value></data>
+  <data name="MenuRefresh.Text"><value>Yenile</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Log actions submenu                  -->
+  <!-- ============================================================ -->
+  <data name="MenuLogActions.Text"><value>Günlük işlemleri</value></data>
+  <data name="MenuInspectLog.Text"><value>Günlüğü çevrimiçi incele</value></data>
+  <data name="MenuCopyLog.Text"><value>Günlüğü panoya kopyala</value></data>
+  <data name="MenuClearLog.Text"><value>Günlüğü temizle</value></data>
+  <data name="MenuLogChecked.Text"><value>Günlük: seçili özellikler</value></data>
+  <data name="MenuLogUnchecked.Text"><value>Günlük: seçilmemiş özellikler</value></data>
+  <data name="MenuLogSummary.Text"><value>Günlük: özet</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: MainWindow — Bottom buttons                       -->
+  <!-- ============================================================ -->
+  <data name="BtnAnalyzeText.Text"><value>Sistemi incele</value></data>
+  <data name="BtnFixText.Text"><value>Seçilen değişiklikleri uygula</value></data>
+  <data name="BtnActions.Content"><value>İşlemler</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: FeaturesPage                                      -->
+  <!-- ============================================================ -->
+  <data name="ComboProfiles.PlaceholderText"><value>&lt;Profil seç...&gt;</value></data>
+  <data name="ChkIssuesOnly.Content"><value>Sadece hatalı olanları göster</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: AppsPage                                          -->
+  <!-- ============================================================ -->
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: InstallPage                                       -->
+  <!-- ============================================================ -->
+  <data name="ComboCategory.PlaceholderText"><value>Kategori...</value></data>
+  <data name="ChkInstalledOnly.Content"><value>Yüklü</value></data>
+  <data name="ChkUpgradesOnly.Content"><value>Güncellenebilir</value></data>
+  <data name="BtnInstall.Content"><value>Yükle</value></data>
+  <data name="BtnUpgradeSelected.Content"><value>Güncelle</value></data>
+  <data name="BtnUpgradeAll.Content"><value>Tümünü güncelle</value></data>
+  <data name="BtnUninstall.Content"><value>Kaldır</value></data>
+  <data name="ColAppName.Text"><value>Uygulama Adı</value></data>
+  <data name="ColPackageId.Text"><value>Paket Kimliği</value></data>
+  <data name="ColInstalled.Text"><value>Yüklü</value></data>
+  <data name="ColUpdate.Text"><value>Güncelleme</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: ToolsPage                                         -->
+  <!-- ============================================================ -->
+  <data name="ComboFilter.PlaceholderText"><value>Filtre...</value></data>
+  <data name="ComboOptions.PlaceholderText"><value>Seçenekler...</value></data>
+  <data name="TextInput.PlaceholderText"><value>Girdi girin (örn: ID'ler veya ham argümanlar)</value></data>
+  <data name="BtnRun.Content"><value>Çalıştır</value></data>
+  <data name="BtnToolUninstall.Content"><value>Kaldır</value></data>
+  <data name="BtnOpenFolder.ToolTipService.ToolTip"><value>Betik klasörünü aç</value></data>
+  <data name="Tools_SelectHint.Text"><value>Başlamak için bir araç seçin</value></data>
+
+  <!-- ============================================================ -->
+  <!-- XAML x:Uid: PluginsDialog                                     -->
+  <!-- ============================================================ -->
+  <data name="PluginsDialog.Title"><value>Eklentileri Yönet</value></data>
+  <data name="PluginsDialog.CloseButtonText"><value>Kapat</value></data>
+  <data name="TxtSearch.PlaceholderText"><value>Eklenti ara...</value></data>
+  <data name="ColPlugin.Text"><value>Eklenti</value></data>
+  <data name="ColStatus.Text"><value>Durum</value></data>
+  <data name="ColType.Text"><value>Tür</value></data>
+  <data name="BtnPluginInstall.Content"><value>Yükle</value></data>
+  <data name="BtnPluginUpdateAll.Content"><value>Tümünü güncelle</value></data>
+  <data name="BtnPluginRemove.Content"><value>Kaldır</value></data>
+  <data name="BtnPluginEdit.Content"><value>Düzenle</value></data>
+  <data name="BtnPluginOpenFolder.Content"><value>Klasörü aç</value></data>
+  <data name="BtnPluginSubmit.Content"><value>Gönder</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature categories (FeatureLoader.cs)      -->
+  <!-- ============================================================ -->
+  <data name="Category_Issues"><value>Bakım</value></data>
+  <data name="Category_System"><value>Sistem</value></data>
+  <data name="Category_MSEdge"><value>MS Edge</value></data>
+  <data name="Category_UI"><value>Arayüz</value></data>
+  <data name="Category_Taskbar"><value>Görev Çubuğu</value></data>
+  <data name="Category_Gaming"><value>Oyun</value></data>
+  <data name="Category_Privacy"><value>Gizlilik</value></data>
+  <data name="Category_Ads"><value>Reklamlar</value></data>
+  <data name="Category_AI"><value>Yapay Zeka</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — AI                        -->
+  <!-- ============================================================ -->
+  <data name="Feature_ClickToDo"><value>Click to Do özelliğini devre dışı bırak (Sadece Copilot+ PC'ler)</value></data>
+  <data name="Feature_CopilotTaskbar"><value>Görev çubuğunda Copilot'u gösterme</value></data>
+  <data name="Feature_Recall"><value>Windows 11'de Recall özelliğini kapat</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Ads                       -->
+  <!-- ============================================================ -->
+  <data name="Feature_DisableSearchBoxSuggestions"><value>Bing arama sonuçlarını devre dışı bırak</value></data>
+  <data name="Feature_FileExplorerAds"><value>Dosya Gezgini reklamlarını devre dışı bırak</value></data>
+  <data name="Feature_FinishSetupAds"><value>Kurulum sonrası reklamlarını devre dışı bırak</value></data>
+  <data name="Feature_LockScreenAds"><value>Kilit ekranı ipuçları ve reklamlarını devre dışı bırak</value></data>
+  <data name="Feature_PersonalizedAds"><value>Kişiselleştirilmiş reklamları devre dışı bırak</value></data>
+  <data name="Feature_SettingsAds"><value>Ayarlar reklamlarını devre dışı bırak</value></data>
+  <data name="Feature_StartmenuAds"><value>Başlat menüsü reklamlarını devre dışı bırak</value></data>
+  <data name="Feature_TailoredExperiences"><value>Özelleştirilmiş deneyimleri devre dışı bırak</value></data>
+  <data name="Feature_TipsAndSuggestions"><value>Genel ipuçları ve reklamları devre dışı bırak</value></data>
+  <data name="Feature_WelcomeExperienceAds"><value>Karşılama deneyimi reklamlarını devre dışı bırak</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — MS Edge                   -->
+  <!-- ============================================================ -->
+  <data name="Feature_BrowserSignin"><value>Tarayıcı oturum açma ve senkronizasyon hizmetlerini devre dışı bırak</value></data>
+  <data name="Feature_DefaultTopSites"><value>Yeni sekme sayfasında sponsorlu bağlantıları gösterme</value></data>
+  <data name="Feature_DefautBrowserSetting"><value>Microsoft Edge'i varsayılan tarayıcı olarak devre dışı bırak</value></data>
+  <data name="Feature_EdgeCollections"><value>Koleksiyonlar özelliğine erişimi devre dışı bırak</value></data>
+  <data name="Feature_EdgeShoppingAssistant"><value>Alışveriş yardımcısını devre dışı bırak</value></data>
+  <data name="Feature_FirstRunExperience"><value>İlk çalıştırma deneyimini gösterme</value></data>
+  <data name="Feature_GamerMode"><value>Oyuncu modunu devre dışı bırak</value></data>
+  <data name="Feature_HubsSidebar"><value>Edge'de Copilot simgesini devre dışı bırak</value></data>
+  <data name="Feature_ImportOnEachLaunch"><value>Başlangıçta diğer tarayıcılardan veri içe aktarma</value></data>
+  <data name="Feature_StartupBoost"><value>Başlatma hızlandırmayı devre dışı bırak</value></data>
+  <data name="Feature_TabPageQuickLinks"><value>Yeni sekme sayfasında hızlı bağlantıları gösterme</value></data>
+  <data name="Feature_UserFeedback"><value>Kullanıcı geri bildirimi gönderme seçeneğini kaldır</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Gaming                    -->
+  <!-- ============================================================ -->
+  <data name="Feature_GameDVR"><value>Game DVR'ı devre dışı bırak</value></data>
+  <data name="Feature_PowerThrottling"><value>Güç sınırlamayı devre dışı bırak</value></data>
+  <data name="Feature_VisualFX"><value>Görsel efektleri devre dışı bırak</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — System                    -->
+  <!-- ============================================================ -->
+  <data name="Feature_BSODDetails"><value>Üzgün yüz yerine BSOD detaylarını göster</value></data>
+  <data name="Feature_DisableHibernation"><value>Hazırda bekletmeyi devre dışı bırak</value></data>
+  <data name="Feature_MenuShowDelay"><value>Menü açılma gecikmesini hızlandır</value></data>
+  <data name="Feature_NetworkThrottling"><value>Ağ sınırlamasını devre dışı bırak</value></data>
+  <data name="Feature_SpeedUpShutdown"><value>Kapanma süresini hızlandır</value></data>
+  <data name="Feature_SystemResponsiveness"><value>Sistem tepkiselliğini optimize et</value></data>
+  <data name="Feature_VerboseStatus"><value>Ayrıntılı oturum açma durum mesajlarını etkinleştir</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Privacy                   -->
+  <!-- ============================================================ -->
+  <data name="Feature_ActivityHistory"><value>Etkinlik geçmişini devre dışı bırak</value></data>
+  <data name="Feature_AppLaunchTracking"><value>Uygulama başlatma takibini devre dışı bırak</value></data>
+  <data name="Feature_DiagnosticData"><value>Tanılama verisini azalt (Temel)</value></data>
+  <data name="Feature_LocationTracking"><value>Konum takibini devre dışı bırak</value></data>
+  <data name="Feature_LockScreenSlideshow"><value>Kilit ekranı slayt gösterisini devre dışı bırak</value></data>
+  <data name="Feature_NarratorOnlineServices"><value>Okuyucu çevrimiçi hizmetlerini devre dışı bırak</value></data>
+  <data name="Feature_OnlineSpeechRecognition"><value>Çevrimiçi konuşma tanımayı devre dışı bırak</value></data>
+  <data name="Feature_PrivacyExperience"><value>Oturum açarken gizlilik ayarları deneyimini devre dışı bırak</value></data>
+  <data name="Feature_SilentAppInstallation"><value>Sessiz uygulama kurulumunu engelle</value></data>
+  <data name="Feature_WindowsSpotlightLockScreen"><value>Kilit ekranında Spotlight'ı devre dışı bırak</value></data>
+  <data name="Feature_DisableBingSearch"><value>Bing aramasını devre dışı bırak</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — UI                        -->
+  <!-- ============================================================ -->
+  <data name="Feature_AppDarkMode"><value>Uygulamalar için koyu modu etkinleştir</value></data>
+  <data name="Feature_SystemDarkMode"><value>Sistem için koyu modu etkinleştir</value></data>
+  <data name="Feature_FullContextMenus"><value>Windows 11'de tam bağlam menülerini göster</value></data>
+  <data name="Feature_LockScreen"><value>Kişiselleştirilmiş kilit ekranı kullanma</value></data>
+  <data name="Feature_ShowOrHideMostUsedApps"><value>Başlat menüsünde en çok kullanılan uygulamaları gizle</value></data>
+  <data name="Feature_DisableSnapAssistFlyout"><value>Snap Assist açılır menüsünü devre dışı bırak</value></data>
+  <data name="Feature_StartLayout"><value>Başlat menüsüne daha fazla uygulama sabitle</value></data>
+  <data name="Feature_Transparency"><value>Saydamlık efektlerini devre dışı bırak</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Taskbar                   -->
+  <!-- ============================================================ -->
+  <data name="Feature_AlwaysShowTrayIcons"><value>Tüm sistem tepsisi simgelerini her zaman göster</value></data>
+  <data name="Feature_CleanTaskbar"><value>Görev çubuğunu temizle</value></data>
+  <data name="Feature_DisableNewsAndInterests"><value>Haberler ve İlgi Alanlarını devre dışı bırak</value></data>
+  <data name="Feature_DisableWidgets"><value>Widget'ları devre dışı bırak</value></data>
+  <data name="Feature_RemoveMeetNowButton"><value>Sistem tepsisinden 'Toplantı' düğmesini kaldır</value></data>
+  <data name="Feature_SearchboxTaskbarMode"><value>Görev çubuğunda arama kutusunu gizle</value></data>
+  <data name="Feature_ShowTaskViewButton"><value>Görev çubuğunda Görev görünümü düğmesini gizle</value></data>
+  <data name="Feature_TaskbarAlignment"><value>Başlat düğmesini sola hizala</value></data>
+  <data name="Feature_TaskbarEndTask"><value>Görevi sonlandır seçeneğini etkinleştir</value></data>
+  <data name="Feature_TaskbarSmallIcons"><value>Görev çubuğunu küçük yap</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Feature names — Issues                    -->
+  <!-- ============================================================ -->
+  <data name="Feature_BasicCleanup"><value>Temel disk temizliği</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Inapplicable reasons (FeatureTreeItem.cs)  -->
+  <!-- ============================================================ -->
+  <data name="InapplicableReason_Win10Only"><value>Sadece Windows 10</value></data>
+  <data name="InapplicableReason_Win11Only"><value>Sadece Windows 11</value></data>
+  <data name="InapplicableReason_NotApplicable"><value>uygulanamaz</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Log messages (FeatureManager.cs)           -->
+  <!-- ============================================================ -->
+  <data name="Log_General"><value>Genel</value></data>
+  <data name="Log_Skipped"><value>Atlandı</value></data>
+  <data name="Log_NotApplicableOS"><value>Bu işletim sisteminde uygulanamaz.</value></data>
+  <data name="Log_NotConfigured"><value>Önerildiği gibi yapılandırılmamış.</value></data>
+  <data name="Log_Fixed"><value>Düzeltildi</value></data>
+  <data name="Log_FixFailed"><value>Düzeltme başarısız (Bu özellik yönetici yetkisi gerektirebilir)</value></data>
+  <data name="Log_Restored"><value>Geri yüklendi</value></data>
+  <data name="Log_RestoreFailed"><value>Geri yükleme başarısız</value></data>
+  <data name="Log_SkippedRestore"><value>Geri yükleme atlandı</value></data>
+  <data name="Log_ProperlyConfigured"><value>{0} özelliği doğru şekilde yapılandırılmış.</value></data>
+  <data name="Log_RequiresAttention"><value>{0} özelliği dikkat gerektiriyor.</value></data>
+  <data name="Summary_Fix"><value>{0} düzeltildi, {1} atlandı, {2} başarısız</value></data>
+  <data name="Summary_FixTitleDone"><value>Değişiklikler uygulandı</value></data>
+  <data name="Summary_FixTitleWarning"><value>Değişiklikler hatalarla uygulandı</value></data>
+  <data name="Summary_Fixed"><value>Düzeltildi</value></data>
+  <data name="Summary_Skipped"><value>Atlandı</value></data>
+  <data name="Summary_Failed"><value>Başarısız</value></data>
+  <data name="Summary_FixAllGood"><value>Seçilen tüm değişiklikler başarıyla uygulandı.</value></data>
+  <data name="Summary_FixHasErrors"><value>Bazı değişiklikler uygulanamadı. Ayrıntılar için günlüğü kontrol edin.</value></data>
+  <data name="Summary_Restore"><value>{0} geri yüklendi, {1} atlandı, {2} başarısız</value></data>
+  <data name="Summary_RestoreTitleDone"><value>Geri yükleme tamamlandı</value></data>
+  <data name="Summary_RestoreTitleWarning"><value>Geri yükleme hatalarla tamamlandı</value></data>
+  <data name="Summary_Restored"><value>Geri yüklendi</value></data>
+  <data name="Summary_RestoreAllGood"><value>Seçilen tüm özellikler başarıyla geri yüklendi.</value></data>
+  <data name="Summary_RestoreHasErrors"><value>Bazı özellikler geri yüklenemedi. Ayrıntılar için günlüğü kontrol edin.</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Analysis summary (FeaturesPage.xaml.cs)    -->
+  <!-- ============================================================ -->
+  <data name="Analysis_Complete"><value>ANALİZ TAMAMLANDI</value></data>
+  <data name="Analysis_TitleAttention"><value>Analiz tamamlandı — dikkat gerekiyor</value></data>
+  <data name="Analysis_WindowsFeatures"><value>Windows özellikleri</value></data>
+  <data name="Analysis_Plugins"><value>Eklentiler</value></data>
+  <data name="Analysis_Total"><value>Toplam</value></data>
+  <data name="Analysis_Issues"><value>sorun</value></data>
+  <data name="Analysis_IssuesFound"><value>{0} / {1} önerilen şekilde yapılandırılmamış.</value></data>
+  <data name="Analysis_AllGoodCount"><value>Tüm {0} ayar doğru yapılandırılmış.</value></data>
+  <data name="Analysis_DetailsInLog"><value>Ayrıntılar günlükte.</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Context menu (FeaturesPage.xaml.cs)        -->
+  <!-- ============================================================ -->
+  <data name="Context_Analyze"><value>İncele</value></data>
+  <data name="Context_Fix"><value>Uygula</value></data>
+  <data name="Context_Restore"><value>Geri yükle</value></data>
+  <data name="Context_Help"><value>Yardım</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Restore dialogs (FeaturesPage.xaml.cs)     -->
+  <!-- ============================================================ -->
+  <data name="Restore_Title"><value>Seçili öğeleri geri yükle</value></data>
+  <data name="Restore_NoItems"><value>Hiçbir öğe seçilmedi.
+
+Lütfen önce listeden bir veya daha fazla özellik/eklenti seçin.</value></data>
+  <data name="Restore_ConfirmTitle"><value>Seçili öğeleri geri yükle</value></data>
+  <data name="Restore_ConfirmBody"><value>Bu işlem yalnızca seçili ({0}) öğeleri varsayılan durumuna geri yükler.
+Bu öğeler için yapılan önceki değişiklikler geri alınabilir.
+
+Do you want to continue?</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Profile actions (FeaturesPage.xaml.cs)     -->
+  <!-- ============================================================ -->
+  <data name="Profile_Export"><value>Seçimi dışa aktar...</value></data>
+  <data name="Profile_Import"><value>Dosyadan içe aktar...</value></data>
+  <data name="Profile_OpenFolder"><value>Profil klasörünü aç...</value></data>
+  <data name="Profile_ExportedTo"><value>Seçim dışa aktarıldı: {0}</value></data>
+  <data name="Profile_ImportedFrom"><value>{0} öğe içe aktarıldı: {1}</value></data>
+  <data name="Profile_Loaded"><value>'{0}' profili yüklendi ({1} öğe seçildi).</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Scan modes (AppsPage.xaml.cs)              -->
+  <!-- ============================================================ -->
+  <data name="ScanMode_Standard"><value>Standart tarama (önerilen)</value></data>
+  <data name="ScanMode_Full"><value>Tam tarama (tüm yüklü uygulamalar)</value></data>
+  <data name="ScanMode_Community"><value>Topluluk listesi ile tara (CFEnhancer)</value></data>
+  <data name="ScanMode_BuiltIn"><value>Dahili liste ile tara</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Apps log messages (AppsPage.xaml.cs)       -->
+  <!-- ============================================================ -->
+  <data name="Apps_DisplayAll"><value>Tüm yüklü uygulamalar gösteriliyor.</value></data>
+  <data name="Apps_NoPlugin"><value>Eklenti listesi bulunamadı. Öneriler için CFEnhancer yükleyin.</value></data>
+  <data name="Apps_DisplayPlugin"><value>Eklenti önerileri gösteriliyor (CFEnhancer).</value></data>
+  <data name="Apps_DisplayBuiltIn"><value>Dahili öneriler gösteriliyor.</value></data>
+  <data name="Apps_DisplayRecommendedPlugin"><value>Önerilen uygulamalar gösteriliyor (eklenti).</value></data>
+  <data name="Apps_DisplayRecommendedBuiltIn"><value>Önerilen uygulamalar gösteriliyor (dahili).</value></data>
+  <data name="Apps_AnalysisTitle"><value>UYGULAMA ANALİZİ</value></data>
+  <data name="Apps_ShowingAll"><value>Tüm uygulamalar gösteriliyor (hariç tutulanlar hariç): {0}</value></data>
+  <data name="Apps_BloatwareDetected"><value>Gereksiz uygulamalar tespit edildi:</value></data>
+  <data name="Apps_NoBloatware"><value>Microsoft Store gereksiz uygulaması bulunamadı.</value></data>
+  <data name="Apps_CleanupComplete"><value>Uygulama temizleme tamamlandı.</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: InstallPage messages                       -->
+  <!-- ============================================================ -->
+  <data name="Install_Installed"><value>Yüklü</value></data>
+  <data name="Install_Upgradeable"><value>Güncellenebilir</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: ToolsPage messages                         -->
+  <!-- ============================================================ -->
+  <data name="Tools_Loading"><value>Eklentiler yükleniyor...</value></data>
+  <data name="Tools_FolderCreated"><value>Betik klasörü bulunamadı, oluşturuldu.</value></data>
+  <data name="Tools_Loaded"><value>{0} eklenti yüklendi.</value></data>
+  <data name="Tools_SelectExtension"><value>Soldan bir eklenti seçin.</value></data>
+  <data name="Tools_Running"><value>Çalıştırılıyor...</value></data>
+  <data name="Tools_Done"><value>Tamamlandı.</value></data>
+  <data name="Tools_OpenedConsole"><value>Konsolda çalıştırıldı.</value></data>
+  <data name="Tools_CompletedLog"><value>Günlük kaydıyla tamamlandı.</value></data>
+  <data name="Tools_UninstallTitle"><value>Eklentiyi kaldır</value></data>
+  <data name="Tools_UninstallConfirm"><value>"{0}" silinsin mi? Bu işlem geri alınamaz.</value></data>
+  <data name="Tools_UninstallYes"><value>Sil</value></data>
+  <data name="Common_Cancel"><value>İptal</value></data>
+  <data name="Tools_HelpAvailable"><value>Bu araç için yardım mevcut</value></data>
+  <data name="Tools_ShowHelp"><value>Yardımı göster</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Donation dialog (DonationHelper.cs)        -->
+  <!-- ============================================================ -->
+  <data name="Donation_Title"><value>Winslopr’ı destekle ❤</value></data>
+  <data name="Donation_Body"><value>Winslopr size zaman kazandırdıysa, geleceğini desteklemeyi düşünebilirsiniz. Sizin gibi destekçiler sayesinde ücretsiz kalır.</value></data>
+  <data name="Donation_AlreadyDonated"><value>Zaten bağış yaptım, tekrar gösterme</value></data>
+  <data name="Donation_Donate"><value>Bağış yap</value></data>
+  <data name="Donation_MaybeLater"><value>Daha sonra</value></data>
+
+  <!-- XAML: Migration InfoBar (MainWindow.xaml)                      -->
+  <!-- ============================================================ -->
+  <data name="InfoMigration.Title"><value>Yeni görünüm, yeni dönem — Winslopr yeni bir isim almalı mı?</value></data>
+  <data name="InfoMigration.Message"><value>Winslopr yeni bir görünüme kavuştu. Sizce yeni bir isim de almalı mı? WinUI 3 ile birlikte uygulama değişti. Görüşlerinizi paylaşın.</value></data>
+  <data name="InfoMigration_Vote.Content"><value>Oy ver →</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Plugins status (PluginsDialog.xaml.cs)     -->
+  <!-- ============================================================ -->
+  <data name="Plugins_Installed"><value>Yüklü</value></data>
+  <data name="Plugins_Updated"><value>Güncellendi</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Log actions (LoggerActions.cs)             -->
+  <!-- ============================================================ -->
+  <data name="LogActions_NotAvailable"><value>[Özellikler] Kullanılamıyor.</value></data>
+  <data name="LogActions_Summary"><value>[Özellikler] Toplam: {0}, Seçili: {1}</value></data>
+  <data name="LogActions_NoChecked"><value>[Özellikler] Seçili öğe yok.</value></data>
+  <data name="LogActions_CheckedItems"><value>[Özellikler] Seçili öğeler ({0}):</value></data>
+  <data name="LogActions_UncheckedItems"><value>[Özellikler] Seçilmemiş öğeler ({0}):</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Language switcher                          -->
+  <!-- ============================================================ -->
+  <data name="Language_RestartTitle"><value>Dil değiştirildi</value></data>
+  <data name="Language_RestartRequired"><value>Değişikliklerin uygulanması için uygulamayı yeniden başlatın.</value></data>
+
+  <!-- ============================================================ -->
+  <!-- C# ResourceLoader: Common strings                             -->
+  <!-- ============================================================ -->
+  <data name="Common_Yes"><value>Evet</value></data>
+  <data name="Common_No"><value>Hayır</value></data>
+  <data name="Common_OK"><value>Tmm</value></data>
+  <data name="Common_Close"><value>Kapat</value></data>
+
+</root>
